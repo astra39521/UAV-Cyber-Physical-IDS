@@ -1,0 +1,8 @@
+Model                  Mean Acc      Std Dev      Min Acc      Max Acc
+Decision Tree            0.9914       0.0000       0.9914       0.9914
+Random Forest            0.9928       0.0007       0.9918       0.9941
+Bagged Trees             0.9923       0.0007       0.9913       0.9937
+KNN (K=5)                0.9779       0.0000       0.9779       0.9779
+SVM                      0.8914       0.0000       0.8914       0.8914
+
+Best Model: Random Forest (Mean Accuracy = 0.9928)

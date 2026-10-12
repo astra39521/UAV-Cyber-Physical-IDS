@@ -1,0 +1,38 @@
+############################################################
+          PART 1: Classify Cyber vs Physical
+############################################################
+
+Cyber vs Physical Accuracy: 1.0000 (100.00%)
+
+############################################################
+     PART 2: Best Model for Cyber Attack Classification
+############################################################
+
+Cyber Train samples: 23172
+Cyber Test  samples: 9930
+
+Features used after removing zero-variance: 34
+
+Training models...
+
+Decision Tree      Accuracy = 0.9932
+Random Forest      Accuracy = 0.9906
+Bagged Trees       Accuracy = 0.9934
+KNN (K=5)          Accuracy = 0.9784
+SVM                Accuracy = 0.9021
+
+==================== FINAL RANKING (Cyber Attacks) ====================
+Model                  Accuracy        Error
+--------------------------------------------------------
+Bagged Trees             0.9934       0.0066
+Decision Tree            0.9932       0.0068
+Random Forest            0.9906       0.0094
+KNN (K=5)                0.9784       0.0216
+SVM                      0.9021       0.0979
+--------------------------------------------------------
+
+Best Model for Cyber Attacks : Bagged Trees
+Highest Accuracy             : 0.9934 (99.34%)
+Lowest Error                 : 0.0066 (0.66%)
+
+Done!

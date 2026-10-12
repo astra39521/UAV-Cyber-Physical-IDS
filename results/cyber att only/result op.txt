@@ -1,0 +1,15 @@
+Decision Tree      Accuracy = 0.9941
+Random Forest      Accuracy = 0.9954
+Bagged Trees       Accuracy = 0.9955
+KNN (K=5)          Accuracy = 0.9299
+SVM                Accuracy = 0.7574
+
+Model                  Accuracy        Error
+Bagged Trees             0.9955       0.0045
+Random Forest            0.9954       0.0046
+Decision Tree            0.9941       0.0059
+KNN (K=5)                0.9299       0.0701
+SVM                      0.7574       0.2426
+
+Best Model: Bagged Trees (99.55%)
+>>  

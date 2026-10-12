@@ -1,0 +1,41 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.fig
+*.mat
+*.slx
+*.slxc
+*.mlapp
+*.mlx
+*.mlproj
+*.p
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files (keep structure, ignore heavy CSVs if desired)
+# Uncomment the lines below if you do NOT want to push large datasets
+# data/*.csv
+# data/*.xlsx
+
+# Results (optional – uncomment if results should not be committed)
+# results/*
+# !results/.gitkeep
+
+# Temporary / cache
+*.tmp
+*.log
+*.cache
+.temp/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+data/*.csv
+data/*/*.csv

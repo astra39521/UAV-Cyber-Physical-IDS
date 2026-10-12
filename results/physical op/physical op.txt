@@ -1,0 +1,12 @@
+>> physical_attack_classification
+
+==================== PHYSICAL DATA RESULTS ====================
+Model                  Accuracy        Error
+------------------------------------------------------
+Random Forest            1.0000       0.0000
+Bagged Trees             1.0000       0.0000
+Decision Tree            0.9997       0.0003
+KNN (K=5)                0.9904       0.0096
+SVM                      0.9720       0.0280
+------------------------------------------------------
+Best Model for Physical Data: Random Forest (1.0000)
